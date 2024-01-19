@@ -9,7 +9,7 @@ public class cameraMovement : MonoBehaviour
     [Tooltip("Max speed")]
     public float speed;
 
-    private
+    
 
 
 }
