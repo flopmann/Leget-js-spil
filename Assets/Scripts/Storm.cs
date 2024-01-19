@@ -35,7 +35,7 @@ public class Storm : MonoBehaviour
                 GameObject instance = GameObject.Instantiate(obj, position, Quaternion.identity);
                 instance.GetComponent<stormMovement>().farm = target.transform;
                 
-                timer= 0f;
+                timer = 0f;
             }
         }
     }
