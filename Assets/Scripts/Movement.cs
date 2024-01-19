@@ -24,6 +24,8 @@ public class Movement : MonoBehaviour
         controller = GetComponent<CharacterController>();
 
         currentSpeed = moveSpeed;
+
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -42,6 +44,15 @@ public class Movement : MonoBehaviour
         moveDirection.y = yMovement;
 
         controller.Move(moveDirection * Time.deltaTime);
+
+        if (moveDirection.magnitude > 2.5)
+        {
+            animator.SetBool("isWalking", true);
+        }
+        else
+        {
+            animator.SetBool("isWalking", false);
+        }
 
     }
 
