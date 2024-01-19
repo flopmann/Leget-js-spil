@@ -16,7 +16,7 @@ public class cameraMovement : MonoBehaviour
 
      void Start()
     {
-        offSet= transform.position - follow.position;
+        offSet = transform.position - follow.position;
     }
 
     void Update()

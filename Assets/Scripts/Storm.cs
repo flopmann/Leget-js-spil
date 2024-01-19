@@ -1,18 +1,50 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Storm : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] public GameObject obj;
+    [SerializeField] public float Radius = 20f;
+    public GameObject target;
+    private float timer = 0f;
+    public float Timertilstorm = 5f;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        bool TimerStarted = false;
+
+        if (!TimerStarted) TimerStarted = true;
+
+        if (TimerStarted)
+        {
+            timer += Time.deltaTime;
+
+            if (timer >= Timertilstorm)
+            {
+                float angle = Random.Range(0, 360);
+
+                float x = Mathf.Sin(angle) * Radius;
+                float z = Mathf.Cos(angle) * Radius;
+                float y = 2;
+
+
+                Vector3 position = new Vector3(x, y, z);
+                GameObject instance = GameObject.Instantiate(obj, position, Quaternion.identity);
+                instance.GetComponent<stormMovement>().farm = target.transform;
+                
+                timer= 0f;
+            }
+        }
     }
-}
+
+
+    
+
+
+    }
+
+    
+

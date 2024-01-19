@@ -45,7 +45,7 @@ public class Movement : MonoBehaviour
 
         controller.Move(moveDirection * Time.deltaTime);
 
-        if (moveDirection.magnitude > 2.5)
+        if (moveDirection.magnitude > 0.5)
         {
             animator.SetBool("isWalking", true);
         }
