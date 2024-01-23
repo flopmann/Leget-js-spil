@@ -4,7 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< Updated upstream
   - Carrot
+=======
+  - Shield
+  - Storm
+  - Farm
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX

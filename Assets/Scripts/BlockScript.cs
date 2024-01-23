@@ -4,5 +4,21 @@ using UnityEngine;
 
 public class BlockScript : MonoBehaviour
 {
-    
+    void Update()
+    {
+        Despawn();  
+    }
+
+
+
+    void Despawn()
+    {
+        
+
+
+
+    }
+
+
+
 }

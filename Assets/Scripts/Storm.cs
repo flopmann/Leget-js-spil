@@ -34,22 +34,12 @@ public class Storm : MonoBehaviour
 
                 Vector3 position = new Vector3(x, y, z);
                 GameObject instance = GameObject.Instantiate(obj, position, Quaternion.identity);
-                instance.GetComponent<stormMovement>().farm = target.transform;               
+                instance.GetComponent<stormMovement>().farm = target.transform;
+                
                 timer = 0f;
             }
         }
-
-
-        
-
-
-
     }
-
-    
-
-
-
 }
 
     
