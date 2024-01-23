@@ -8,10 +8,12 @@ public class CarrotFarming : MonoBehaviour
     GameObject Carrot;
 
     public Vector3 moveDirection;
+    public AudioSource audio_src1;
 
     void OnTriggerEnter(Collider other)
     {
         Carrot.transform.position += moveDirection;
+        audio_src1.Play();
     }
 
 }
