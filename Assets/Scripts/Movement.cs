@@ -53,7 +53,6 @@ public class Movement : MonoBehaviour
         {
             animator.SetBool("isWalking", false);
         }
-
     }
 
     
