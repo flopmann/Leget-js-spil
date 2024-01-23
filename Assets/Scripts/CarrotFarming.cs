@@ -11,7 +11,6 @@ public class CarrotFarming : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-
         Carrot.transform.position += moveDirection;
     }
 
