@@ -9,9 +9,9 @@ using UnityEngine.UI;
 [RequireComponent(typeof(CharacterController))]
 public class Movement : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float gravity = 3.71f;
-    private float currentSpeed = 0;
+    private float currentSpeed = 0f;
 
     private CharacterController controller;
     public Animator animator;
@@ -45,7 +45,7 @@ public class Movement : MonoBehaviour
 
         controller.Move(moveDirection * Time.deltaTime);
 
-        if (moveDirection.magnitude > 0.5)
+        if ((Input.GetKey("w"))||(Input.GetKey("a"))||(Input.GetKey("s"))||(Input.GetKey("d")))
         {
             animator.SetBool("isWalking", true);
         }
