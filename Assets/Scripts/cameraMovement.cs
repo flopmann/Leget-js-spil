@@ -36,7 +36,7 @@ public class cameraMovement : MonoBehaviour
 
         Vector3 newPosition = Vector3.MoveTowards(transform.position, target, currentSpeed * Time.deltaTime);
         transform.position = newPosition;
-
+        
     }
 
 }
