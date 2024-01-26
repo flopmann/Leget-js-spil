@@ -14,12 +14,12 @@ public class CarrotFarming : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Carrot.transform.position += moveDirection;
-<<<<<<< Updated upstream
+
         audio_src1.Play();
-=======
+
         carrotsFarmed = carrotsFarmed + 1;
         Debug.Log(carrotsFarmed);
->>>>>>> Stashed changes
+
     }
 
 }
