@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FarmRotation : MonoBehaviour
 {
@@ -18,5 +19,10 @@ public class FarmRotation : MonoBehaviour
     {
         carrotsFarmed = carrotsFarmed + 1;
         Debug.Log(carrotsFarmed);
+
+        if (carrotsFarmed == 300)
+        {
+            SceneManager.LoadScene("winScene");
+        }
     }
 }
