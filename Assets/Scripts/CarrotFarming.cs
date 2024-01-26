@@ -15,6 +15,8 @@ public class CarrotFarming : MonoBehaviour
     {
         Carrot.transform.position += moveDirection;
 
+        audio_src1.Random pitch.range(0.5f, 1.5f);
+
         audio_src1.Play();
 
         
