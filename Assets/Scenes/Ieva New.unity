@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641228, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -235,7 +235,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 7375320}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &7375323
 MonoBehaviour:
@@ -249,7 +248,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &7375324
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -410,7 +408,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 18305798}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &18305801
 MonoBehaviour:
@@ -424,7 +421,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &18305802
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -496,7 +492,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 33058958}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &33058961
 MonoBehaviour:
@@ -510,7 +505,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &33058962
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -671,7 +665,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 43609739}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &43609742
 MonoBehaviour:
@@ -685,7 +678,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &43609743
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -757,7 +749,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 51326734}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &51326737
 MonoBehaviour:
@@ -771,7 +762,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &51326738
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -843,7 +833,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 54168055}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &54168058
 MonoBehaviour:
@@ -857,7 +846,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &54168059
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -929,7 +917,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 57071533}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &57071536
 MonoBehaviour:
@@ -943,7 +930,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &57071537
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1104,7 +1090,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 65978371}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &65978374
 MonoBehaviour:
@@ -1118,7 +1103,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &65978375
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1190,7 +1174,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 67003036}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &67003039
 MonoBehaviour:
@@ -1204,7 +1187,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &67003040
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1365,7 +1347,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 68704091}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &68704094
 MonoBehaviour:
@@ -1379,7 +1360,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &68704095
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1453,7 +1433,7 @@ Transform:
   m_GameObject: {fileID: 73675384}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.95694035, z: 0, w: 0.2902847}
-  m_LocalPosition: {x: -0.5, y: -0.1, z: -0.3}
+  m_LocalPosition: {x: -0.5, y: -0.5, z: -0.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1494,7 +1474,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 77746396}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &77746399
 MonoBehaviour:
@@ -1508,7 +1487,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &77746400
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1669,7 +1647,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 89652409}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &89652412
 MonoBehaviour:
@@ -1683,7 +1660,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &89652413
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1749,7 +1725,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 488e2d97d416b44208f919f12abbb95f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotation: {x: 0, y: 17, z: 0}
+  _rotation: {x: 0, y: 15, z: 0}
+  carrotsFarmed: 0
 --- !u!65 &90326084
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1999,7 +1976,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 117921258}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &117921261
 MonoBehaviour:
@@ -2013,7 +1989,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &117921262
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2263,7 +2238,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 122414973}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &122414976
 MonoBehaviour:
@@ -2277,7 +2251,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &122414977
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2438,7 +2411,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 126974489}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &126974492
 MonoBehaviour:
@@ -2452,7 +2424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &126974493
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2615,7 +2586,7 @@ Transform:
   m_GameObject: {fileID: 135901208}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.47139674, z: 0, w: 0.8819213}
-  m_LocalPosition: {x: 0.21, y: -0.42, z: -0.47}
+  m_LocalPosition: {x: 0.21, y: -0.5, z: -0.47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3011,7 +2982,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 160453625}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &160453628
 MonoBehaviour:
@@ -3025,7 +2995,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &160453629
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3366,7 +3335,7 @@ Transform:
   m_GameObject: {fileID: 178313465}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.098017134, z: 0, w: 0.9951847}
-  m_LocalPosition: {x: 0.45, y: -0.26, z: -0.13}
+  m_LocalPosition: {x: 0.45, y: -0.5, z: -0.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3496,7 +3465,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 182910957}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &182910960
 MonoBehaviour:
@@ -3510,7 +3478,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &182910961
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3849,7 +3816,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 187006685}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &187006688
 MonoBehaviour:
@@ -3863,7 +3829,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &187006689
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4024,7 +3989,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 195557434}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &195557437
 MonoBehaviour:
@@ -4038,7 +4002,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &195557438
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4199,7 +4162,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 204698159}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &204698162
 MonoBehaviour:
@@ -4213,7 +4175,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &204698163
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4287,7 +4248,7 @@ Transform:
   m_GameObject: {fileID: 218055851}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.19509031, z: 0, w: 0.98078537}
-  m_LocalPosition: {x: 0, y: -0.3, z: 0}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4773,7 +4734,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 234946878}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &234946881
 MonoBehaviour:
@@ -4787,7 +4747,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &234946882
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4861,7 +4820,7 @@ Transform:
   m_GameObject: {fileID: 237211731}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.88192123, z: 0, w: 0.47139683}
-  m_LocalPosition: {x: 0.3, y: -0.02, z: 0.35}
+  m_LocalPosition: {x: 0.3, y: -0.5, z: 0.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4992,7 +4951,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 253547226}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &253547229
 MonoBehaviour:
@@ -5006,7 +4964,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &253547230
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5167,7 +5124,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 254066096}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &254066099
 MonoBehaviour:
@@ -5181,7 +5137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &254066100
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5253,7 +5208,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 255401460}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &255401463
 MonoBehaviour:
@@ -5267,7 +5221,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &255401464
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5606,7 +5559,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 307592608}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &307592611
 MonoBehaviour:
@@ -5620,7 +5572,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &307592612
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5781,7 +5732,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 311810522}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &311810525
 MonoBehaviour:
@@ -5795,7 +5745,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &311810526
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5867,7 +5816,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 312586648}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &312586651
 MonoBehaviour:
@@ -5881,7 +5829,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &312586652
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6131,7 +6078,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 320748570}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &320748573
 MonoBehaviour:
@@ -6145,7 +6091,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &320748574
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6412,7 +6357,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 325918308}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &325918311
 MonoBehaviour:
@@ -6426,7 +6370,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &325918312
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6498,7 +6441,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 326601982}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &326601985
 MonoBehaviour:
@@ -6512,7 +6454,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &326601986
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6584,7 +6525,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 331703327}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &331703330
 MonoBehaviour:
@@ -6598,7 +6538,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &331703331
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6670,7 +6609,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 331998198}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &331998201
 MonoBehaviour:
@@ -6684,7 +6622,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &331998202
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6934,7 +6871,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 362031558}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &362031561
 MonoBehaviour:
@@ -6948,7 +6884,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &362031562
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7020,7 +6955,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 365080270}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &365080273
 MonoBehaviour:
@@ -7034,7 +6968,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &365080274
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7106,7 +7039,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 367122034}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &367122037
 MonoBehaviour:
@@ -7120,7 +7052,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &367122038
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7281,7 +7212,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 373102061}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &373102064
 MonoBehaviour:
@@ -7295,7 +7225,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &373102065
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7367,7 +7296,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 382485461}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &382485464
 MonoBehaviour:
@@ -7381,7 +7309,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &382485465
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7542,7 +7469,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 399414918}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &399414921
 MonoBehaviour:
@@ -7556,7 +7482,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &399414922
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7720,7 +7645,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 412492135}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &412492138
 MonoBehaviour:
@@ -7734,7 +7658,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &412492139
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7806,7 +7729,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 414262338}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &414262341
 MonoBehaviour:
@@ -7820,7 +7742,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &414262342
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8070,7 +7991,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 441525700}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &441525703
 MonoBehaviour:
@@ -8084,7 +8004,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &441525704
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8245,7 +8164,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 447229998}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &447230001
 MonoBehaviour:
@@ -8259,7 +8177,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &447230002
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8331,7 +8248,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 448084500}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &448084503
 MonoBehaviour:
@@ -8345,7 +8261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &448084504
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8417,7 +8332,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 456710661}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &456710664
 MonoBehaviour:
@@ -8431,7 +8345,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &456710665
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8503,7 +8416,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 463904897}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &463904900
 MonoBehaviour:
@@ -8517,7 +8429,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &463904901
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8767,7 +8678,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 468334950}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &468334953
 MonoBehaviour:
@@ -8781,7 +8691,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &468334954
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8853,7 +8762,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 470816483}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &470816486
 MonoBehaviour:
@@ -8867,7 +8775,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &470816487
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9117,7 +9024,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 486891345}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &486891348
 MonoBehaviour:
@@ -9131,7 +9037,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &486891349
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9203,7 +9108,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 499040201}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &499040204
 MonoBehaviour:
@@ -9217,7 +9121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &499040205
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9380,7 +9283,7 @@ Transform:
   m_GameObject: {fileID: 537311744}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: -0.38, z: 0}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9421,7 +9324,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 545096637}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &545096640
 MonoBehaviour:
@@ -9435,7 +9337,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &545096641
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9863,7 +9764,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 583437025}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &583437028
 MonoBehaviour:
@@ -9877,7 +9777,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &583437029
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10038,7 +9937,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 587965286}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &587965289
 MonoBehaviour:
@@ -10052,7 +9950,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &587965290
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10213,7 +10110,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 592191412}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &592191415
 MonoBehaviour:
@@ -10227,7 +10123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &592191416
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10299,7 +10194,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 592476673}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &592476676
 MonoBehaviour:
@@ -10313,7 +10207,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &592476677
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10385,7 +10278,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 604244846}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &604244849
 MonoBehaviour:
@@ -10399,7 +10291,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &604244850
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10738,7 +10629,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 622500256}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &622500259
 MonoBehaviour:
@@ -10752,7 +10642,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &622500260
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10824,7 +10713,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 628522759}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &628522762
 MonoBehaviour:
@@ -10838,7 +10726,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &628522763
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10999,7 +10886,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 650502849}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &650502852
 MonoBehaviour:
@@ -11013,7 +10899,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &650502853
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11441,7 +11326,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 678318431}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &678318434
 MonoBehaviour:
@@ -11455,7 +11339,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &678318435
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11794,7 +11677,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 694003704}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &694003707
 MonoBehaviour:
@@ -11808,7 +11690,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &694003708
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11880,7 +11761,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 695434811}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &695434814
 MonoBehaviour:
@@ -11894,7 +11774,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &695434815
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12055,7 +11934,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 698859426}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &698859429
 MonoBehaviour:
@@ -12069,7 +11947,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &698859430
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12230,7 +12107,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 703792268}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &703792271
 MonoBehaviour:
@@ -12244,7 +12120,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &703792272
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12316,7 +12191,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 711173082}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &711173085
 MonoBehaviour:
@@ -12330,7 +12204,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &711173086
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12491,7 +12364,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 721212185}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &721212188
 MonoBehaviour:
@@ -12505,7 +12377,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &721212189
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12666,7 +12537,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 728618697}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &728618700
 MonoBehaviour:
@@ -12680,7 +12550,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &728618701
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -12752,7 +12621,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 731660866}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &731660869
 MonoBehaviour:
@@ -12766,7 +12634,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &731660870
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13016,7 +12883,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 740304050}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &740304053
 MonoBehaviour:
@@ -13030,7 +12896,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &740304054
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13102,7 +12967,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 741346887}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &741346890
 MonoBehaviour:
@@ -13116,7 +12980,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &741346891
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13188,7 +13051,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 744489428}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &744489431
 MonoBehaviour:
@@ -13202,7 +13064,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &744489432
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13363,7 +13224,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 753576599}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &753576602
 MonoBehaviour:
@@ -13377,7 +13237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &753576603
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13538,7 +13397,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 756931984}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &756931987
 MonoBehaviour:
@@ -13552,7 +13410,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &756931988
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13624,7 +13481,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 765323944}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &765323947
 MonoBehaviour:
@@ -13638,7 +13494,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &765323948
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13888,7 +13743,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 780737097}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &780737100
 MonoBehaviour:
@@ -13902,7 +13756,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &780737101
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14152,7 +14005,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 788768059}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &788768062
 MonoBehaviour:
@@ -14166,7 +14018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &788768063
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14238,7 +14089,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 790893306}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &790893309
 MonoBehaviour:
@@ -14252,7 +14102,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &790893310
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14502,7 +14351,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 809935248}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &809935251
 MonoBehaviour:
@@ -14516,7 +14364,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &809935252
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14588,7 +14435,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 812414494}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &812414497
 MonoBehaviour:
@@ -14602,7 +14448,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &812414498
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14674,7 +14519,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 821372898}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &821372901
 MonoBehaviour:
@@ -14688,7 +14532,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &821372902
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14760,7 +14603,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 831825955}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &831825958
 MonoBehaviour:
@@ -14774,7 +14616,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &831825959
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -14848,7 +14689,7 @@ Transform:
   m_GameObject: {fileID: 860155845}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.5555702, z: 0, w: 0.8314697}
-  m_LocalPosition: {x: 0, y: -0.46, z: 0}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14980,7 +14821,7 @@ Transform:
   m_GameObject: {fileID: 878205512}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.8314696, z: 0, w: 0.55557024}
-  m_LocalPosition: {x: 0, y: 0.02, z: 0}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15199,7 +15040,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 897746720}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &897746723
 MonoBehaviour:
@@ -15213,7 +15053,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &897746724
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15463,7 +15302,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 907507543}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &907507546
 MonoBehaviour:
@@ -15477,7 +15315,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &907507547
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15549,7 +15386,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 911538991}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &911538994
 MonoBehaviour:
@@ -15563,7 +15399,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &911538995
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15724,7 +15559,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 933219768}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &933219771
 MonoBehaviour:
@@ -15738,7 +15572,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &933219772
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15810,7 +15643,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 939189651}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &939189654
 MonoBehaviour:
@@ -15824,7 +15656,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &939189655
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15896,7 +15727,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 940526739}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &940526742
 MonoBehaviour:
@@ -15910,7 +15740,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &940526743
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15982,7 +15811,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 943871768}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &943871771
 MonoBehaviour:
@@ -15996,7 +15824,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &943871772
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16157,7 +15984,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 946982467}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &946982470
 MonoBehaviour:
@@ -16171,7 +15997,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &946982471
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16510,7 +16335,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 957394055}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &957394058
 MonoBehaviour:
@@ -16524,7 +16348,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &957394059
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16596,7 +16419,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 959306375}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &959306378
 MonoBehaviour:
@@ -16610,7 +16432,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &959306379
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16682,7 +16503,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 960211605}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &960211608
 MonoBehaviour:
@@ -16696,7 +16516,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &960211609
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17311,7 +17130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 985925467}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &985925470
 MonoBehaviour:
@@ -17325,7 +17143,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &985925471
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17397,7 +17214,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 986530376}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &986530379
 MonoBehaviour:
@@ -17411,7 +17227,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &986530380
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17483,7 +17298,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 993610748}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &993610751
 MonoBehaviour:
@@ -17497,7 +17311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &993610752
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17663,7 +17476,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1003863165}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1003863168
 MonoBehaviour:
@@ -17677,7 +17489,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1003863169
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -17751,7 +17562,7 @@ Transform:
   m_GameObject: {fileID: 1004643426}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7730105, z: 0, w: 0.6343933}
-  m_LocalPosition: {x: -0.1, y: 0.06, z: -0.4}
+  m_LocalPosition: {x: -0.1, y: -0.5, z: -0.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17791,7 +17602,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1007924044}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1007924047
 MonoBehaviour:
@@ -17805,7 +17615,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1007924048
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18144,7 +17953,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1028838800}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1028838803
 MonoBehaviour:
@@ -18158,7 +17966,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1028838804
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18408,7 +18215,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1037595384}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1037595387
 MonoBehaviour:
@@ -18422,7 +18228,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1037595388
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18761,7 +18566,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1061139981}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1061139984
 MonoBehaviour:
@@ -18775,7 +18579,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1061139985
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18847,7 +18650,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1061548456}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1061548459
 MonoBehaviour:
@@ -18861,7 +18663,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1061548460
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19022,7 +18823,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1065066741}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1065066744
 MonoBehaviour:
@@ -19036,7 +18836,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1065066745
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19197,7 +18996,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1065931432}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1065931435
 MonoBehaviour:
@@ -19211,7 +19009,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1065931436
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19283,7 +19080,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1068844157}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1068844160
 MonoBehaviour:
@@ -19297,7 +19093,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1068844161
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19458,7 +19253,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1073748304}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1073748307
 MonoBehaviour:
@@ -19472,7 +19266,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1073748308
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19544,7 +19337,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1085018101}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1085018104
 MonoBehaviour:
@@ -19558,7 +19350,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1085018105
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19630,7 +19421,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1086935704}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1086935707
 MonoBehaviour:
@@ -19644,7 +19434,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1086935708
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19805,7 +19594,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1112198268}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1112198271
 MonoBehaviour:
@@ -19819,7 +19607,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1112198272
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19891,7 +19678,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1141506936}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1141506939
 MonoBehaviour:
@@ -19905,7 +19691,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1141506940
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19977,7 +19762,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1149778889}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1149778892
 MonoBehaviour:
@@ -19991,7 +19775,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1149778893
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20419,7 +20202,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1192202201}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1192202204
 MonoBehaviour:
@@ -20433,7 +20215,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1192202205
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20505,7 +20286,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1207269310}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1207269313
 MonoBehaviour:
@@ -20519,7 +20299,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1207269314
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20591,7 +20370,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1214247395}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1214247398
 MonoBehaviour:
@@ -20605,7 +20383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1214247399
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20677,7 +20454,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1215105115}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1215105118
 MonoBehaviour:
@@ -20691,7 +20467,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1215105119
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -20941,7 +20716,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1219921619}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1219921622
 MonoBehaviour:
@@ -20955,7 +20729,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1219921623
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21472,7 +21245,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1246202559}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1246202562
 MonoBehaviour:
@@ -21486,7 +21258,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1246202563
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21560,7 +21331,7 @@ Transform:
   m_GameObject: {fileID: 1259299890}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.9951848, z: 0, w: 0.09801723}
-  m_LocalPosition: {x: 0.56, y: -0.18, z: 0.01}
+  m_LocalPosition: {x: 0.56, y: -0.5, z: 0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21690,7 +21461,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1266538409}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1266538412
 MonoBehaviour:
@@ -21704,7 +21474,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1266538413
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21776,7 +21545,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1268356672}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1268356675
 MonoBehaviour:
@@ -21790,7 +21558,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1268356676
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21862,7 +21629,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1277903287}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1277903290
 MonoBehaviour:
@@ -21876,7 +21642,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1277903291
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -21948,7 +21713,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1278051707}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1278051710
 MonoBehaviour:
@@ -21962,7 +21726,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1278051711
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22123,7 +21886,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1297825041}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1297825044
 MonoBehaviour:
@@ -22137,7 +21899,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1297825045
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22387,7 +22148,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1312137558}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1312137561
 MonoBehaviour:
@@ -22401,7 +22161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1312137562
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22740,7 +22499,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1345907972}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1345907975
 MonoBehaviour:
@@ -22754,7 +22512,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1345907976
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23093,7 +22850,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1379993364}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1379993367
 MonoBehaviour:
@@ -23107,7 +22863,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1379993368
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23179,7 +22934,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1393012823}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1393012826
 MonoBehaviour:
@@ -23193,7 +22947,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1393012827
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23265,7 +23018,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1404459956}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1404459959
 MonoBehaviour:
@@ -23279,7 +23031,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1404459960
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23440,7 +23191,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1409635275}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1409635278
 MonoBehaviour:
@@ -23454,7 +23204,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1409635279
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23615,7 +23364,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1413077281}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1413077284
 MonoBehaviour:
@@ -23629,7 +23377,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1413077285
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23790,7 +23537,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1423018260}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1423018263
 MonoBehaviour:
@@ -23804,7 +23550,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1423018264
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -23876,7 +23621,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1423625441}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1423625444
 MonoBehaviour:
@@ -23890,7 +23634,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1423625445
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24051,7 +23794,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1431869505}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1431869508
 MonoBehaviour:
@@ -24065,7 +23807,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1431869509
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24226,7 +23967,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1433073999}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1433074002
 MonoBehaviour:
@@ -24240,7 +23980,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1433074003
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24401,7 +24140,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1436341258}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1436341261
 MonoBehaviour:
@@ -24415,7 +24153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1436341262
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24487,7 +24224,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1443111224}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1443111227
 MonoBehaviour:
@@ -24501,7 +24237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1443111228
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24573,7 +24308,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1446167680}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1446167683
 MonoBehaviour:
@@ -24587,7 +24321,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1446167684
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -24659,7 +24392,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1452188956}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1452188959
 MonoBehaviour:
@@ -24673,7 +24405,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1452188960
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25012,7 +24743,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1476891121}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1476891124
 MonoBehaviour:
@@ -25026,7 +24756,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1476891125
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25276,7 +25005,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1485478490}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1485478493
 MonoBehaviour:
@@ -25290,7 +25018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1485478494
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25362,7 +25089,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1486245877}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1486245880
 MonoBehaviour:
@@ -25376,7 +25102,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1486245881
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25537,7 +25262,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1509740393}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1509740396
 MonoBehaviour:
@@ -25551,7 +25275,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1509740397
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25623,7 +25346,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1509794280}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1509794283
 MonoBehaviour:
@@ -25637,7 +25359,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1509794284
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25798,7 +25519,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1533068663}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1533068666
 MonoBehaviour:
@@ -25812,7 +25532,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1533068667
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25973,7 +25692,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1537415208}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1537415211
 MonoBehaviour:
@@ -25987,7 +25705,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1537415212
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -26148,7 +25865,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1552557119}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1552557122
 MonoBehaviour:
@@ -26162,7 +25878,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1552557123
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -26234,7 +25949,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1555401642}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1555401645
 MonoBehaviour:
@@ -26248,7 +25962,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1555401646
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -26498,7 +26211,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1574147759}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1574147762
 MonoBehaviour:
@@ -26512,7 +26224,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1574147763
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -26584,7 +26295,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1577208103}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1577208106
 MonoBehaviour:
@@ -26598,7 +26308,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1577208107
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -26759,7 +26468,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1590160455}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1590160458
 MonoBehaviour:
@@ -26773,7 +26481,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1590160459
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -26934,7 +26641,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1614911352}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1614911355
 MonoBehaviour:
@@ -26948,7 +26654,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1614911356
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27022,7 +26727,7 @@ Transform:
   m_GameObject: {fileID: 1615216190}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.2902847, z: 0, w: 0.95694035}
-  m_LocalPosition: {x: -0.4, y: -0.34, z: 0.27}
+  m_LocalPosition: {x: -0.4, y: -0.5, z: 0.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27064,7 +26769,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1621351167}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1621351170
 MonoBehaviour:
@@ -27078,7 +26782,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1621351171
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27239,7 +26942,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1627057334}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1627057337
 MonoBehaviour:
@@ -27253,7 +26955,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1627057338
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27325,7 +27026,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1629568613}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1629568616
 MonoBehaviour:
@@ -27339,7 +27039,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1629568617
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27411,7 +27110,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1633452420}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1633452423
 MonoBehaviour:
@@ -27425,7 +27123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1633452424
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27677,7 +27374,7 @@ Transform:
   m_GameObject: {fileID: 1642612886}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.1, z: 0}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -27807,7 +27504,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1656728860}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1656728863
 MonoBehaviour:
@@ -27821,7 +27517,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1656728864
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -27982,7 +27677,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1677329137}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1677329140
 MonoBehaviour:
@@ -27996,7 +27690,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1677329141
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28068,7 +27761,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1690154382}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1690154385
 MonoBehaviour:
@@ -28082,7 +27774,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1690154386
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28154,7 +27845,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1691900460}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1691900463
 MonoBehaviour:
@@ -28168,7 +27858,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1691900464
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28418,7 +28107,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1725587515}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1725587518
 MonoBehaviour:
@@ -28432,7 +28120,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1725587519
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28593,7 +28280,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1742145115}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1742145118
 MonoBehaviour:
@@ -28607,7 +28293,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1742145119
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -28946,7 +28631,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1748003668}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1748003671
 MonoBehaviour:
@@ -28960,7 +28644,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1748003672
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29477,7 +29160,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1761317215}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1761317218
 MonoBehaviour:
@@ -29491,7 +29173,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1761317219
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29563,7 +29244,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1774627237}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1774627240
 MonoBehaviour:
@@ -29577,7 +29257,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1774627241
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29827,7 +29506,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1782733871}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1782733874
 MonoBehaviour:
@@ -29841,7 +29519,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1782733875
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29913,7 +29590,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1787760416}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1787760419
 MonoBehaviour:
@@ -29927,7 +29603,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1787760420
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -29999,7 +29674,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1789856263}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1789856266
 MonoBehaviour:
@@ -30013,7 +29687,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1789856267
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30263,7 +29936,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1798053982}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1798053985
 MonoBehaviour:
@@ -30277,7 +29949,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1798053986
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30349,7 +30020,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1802639225}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1802639228
 MonoBehaviour:
@@ -30363,7 +30033,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1802639229
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30435,7 +30104,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1805883955}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1805883958
 MonoBehaviour:
@@ -30449,7 +30117,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1805883959
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30610,7 +30277,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1810138451}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1810138454
 MonoBehaviour:
@@ -30624,7 +30290,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1810138455
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30696,7 +30361,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1815146726}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1815146729
 MonoBehaviour:
@@ -30710,7 +30374,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1815146730
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30871,7 +30534,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1837659638}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1837659641
 MonoBehaviour:
@@ -30885,7 +30547,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1837659642
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -30957,7 +30618,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1842663200}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1842663203
 MonoBehaviour:
@@ -30971,7 +30631,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1842663204
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31038,7 +30697,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1846999984}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1846999986
 MonoBehaviour:
@@ -31052,7 +30710,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1846999987
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31220,7 +30877,7 @@ Transform:
   m_GameObject: {fileID: 1855569107}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.9807853, z: 0, w: 0.19509041}
-  m_LocalPosition: {x: 0, y: -0.14, z: 0}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -31261,7 +30918,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1883133689}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1883133692
 MonoBehaviour:
@@ -31275,7 +30931,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1883133693
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31347,7 +31002,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1892583765}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1892583768
 MonoBehaviour:
@@ -31361,7 +31015,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1892583769
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31433,7 +31086,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1893458368}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1893458371
 MonoBehaviour:
@@ -31447,7 +31099,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1893458372
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31519,7 +31170,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1903388916}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1903388919
 MonoBehaviour:
@@ -31533,7 +31183,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1903388920
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31605,7 +31254,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1905488909}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1905488912
 MonoBehaviour:
@@ -31619,7 +31267,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1905488913
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31780,7 +31427,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1914374515}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1914374518
 MonoBehaviour:
@@ -31794,7 +31440,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1914374519
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -31866,7 +31511,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1921058804}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1921058807
 MonoBehaviour:
@@ -31880,7 +31524,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1921058808
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32041,7 +31684,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1933127092}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1933127095
 MonoBehaviour:
@@ -32055,7 +31697,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1933127096
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32305,7 +31946,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1954259727}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1954259730
 MonoBehaviour:
@@ -32319,7 +31959,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1954259731
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32391,7 +32030,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1965747828}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1965747831
 MonoBehaviour:
@@ -32405,7 +32043,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1965747832
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32477,7 +32114,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1966586598}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &1966586601
 MonoBehaviour:
@@ -32491,7 +32127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1966586602
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -32652,7 +32287,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1976933676}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1976933679
 MonoBehaviour:
@@ -32666,7 +32300,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1976933680
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33005,7 +32638,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 1995851874}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &1995851877
 MonoBehaviour:
@@ -33019,7 +32651,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &1995851878
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33575,7 +33206,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 2048294926}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &2048294929
 MonoBehaviour:
@@ -33589,7 +33219,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &2048294930
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -33841,7 +33470,7 @@ Transform:
   m_GameObject: {fileID: 2068096111}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.22, z: 0}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -33884,7 +33513,7 @@ Transform:
   m_GameObject: {fileID: 2068454450}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.92387956, z: 0, w: 0.38268343}
-  m_LocalPosition: {x: 0, y: -0.06, z: 0}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -34014,7 +33643,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 2075588402}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &2075588405
 MonoBehaviour:
@@ -34028,7 +33656,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &2075588406
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -34100,7 +33727,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 2077246999}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &2077247002
 MonoBehaviour:
@@ -34114,7 +33740,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &2077247003
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -34186,7 +33811,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 2078479360}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 2013639618}
 --- !u!114 &2078479363
 MonoBehaviour:
@@ -34200,7 +33824,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &2078479364
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -34272,7 +33895,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 2082827066}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &2082827069
 MonoBehaviour:
@@ -34286,7 +33908,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &2082827070
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -34358,7 +33979,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 2088479727}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &2088479730
 MonoBehaviour:
@@ -34372,7 +33992,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &2088479731
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -34755,7 +34374,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 2104720242}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &2104720245
 MonoBehaviour:
@@ -34769,7 +34387,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &2104720246
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -35108,7 +34725,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Carrot: {fileID: 2147204276}
-  moveDirection: {x: 0, y: -0.6, z: 0}
   audio_src1: {fileID: 0}
 --- !u!114 &2147204279
 MonoBehaviour:
@@ -35122,7 +34738,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 078a7664d9ef34df7962178934afb610, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.055
 --- !u!54 &2147204280
 Rigidbody:
   m_ObjectHideFlags: 0

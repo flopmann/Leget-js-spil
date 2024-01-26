@@ -20,7 +20,7 @@ public class FarmRotation : MonoBehaviour
         carrotsFarmed = carrotsFarmed + 1;
         Debug.Log(carrotsFarmed);
 
-        if (carrotsFarmed == 300)
+        if (carrotsFarmed == 30000)
         {
             SceneManager.LoadScene("winScene");
         }
