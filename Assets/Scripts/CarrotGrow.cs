@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    public float speed = 1;
+    private float speed = 0.045f;
 
     // Update is called once per frame
     void Update()
