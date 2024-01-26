@@ -12,7 +12,7 @@ public class stormMovement : MonoBehaviour
     
     private float currentSpeed = 0f;
 
-    public static int health = 3;
+    public static int health = 100;
 
     
 
@@ -33,7 +33,7 @@ public class stormMovement : MonoBehaviour
             }
             if (col.tag == "Farm")
             {
-                health = health - 1;
+                health = health - 25;
                 GameObject.Destroy(gameObject);
                 Debug.Log(health);
                 
