@@ -20,7 +20,7 @@ public class Health : MonoBehaviour
         }
         if (stormMovement.health == 50) 
         {
-            healthText.text = "healt: 50";
+            healthText.text = "health: 50";
         }
         if (stormMovement.health == 25)
         {
