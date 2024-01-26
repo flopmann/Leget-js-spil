@@ -7,7 +7,7 @@ public class CarrotFarming : MonoBehaviour
     [SerializeField]
     GameObject Carrot;
 
-    public float carrotsFarmed;
+    
     public Vector3 moveDirection;
     public AudioSource audio_src1;
 
@@ -17,8 +17,7 @@ public class CarrotFarming : MonoBehaviour
 
         audio_src1.Play();
 
-        carrotsFarmed = carrotsFarmed + 1;
-        Debug.Log(carrotsFarmed);
+        
 
     }
 
