@@ -15,29 +15,22 @@ public class Storm : MonoBehaviour
 
     void Update()
     {
-        bool TimerStarted = false;
+        timer += Time.deltaTime;
 
-        if (!TimerStarted) TimerStarted = true;
-
-        if (TimerStarted)
+        if (timer >= Timertilstorm)
         {
-            timer += Time.deltaTime;
+            float angle = Random.Range(0, 360);
 
-            if (timer >= Timertilstorm)
-            {
-                float angle = Random.Range(0, 360);
-
-                float x = Mathf.Sin(angle) * Radius;
-                float z = Mathf.Cos(angle) * Radius;
-                float y = 2;
+            float x = Mathf.Sin(angle) * Radius;
+            float z = Mathf.Cos(angle) * Radius;
+            float y = 2;
 
 
-                Vector3 position = new Vector3(x, y, z);
-                GameObject instance = GameObject.Instantiate(obj, position, Quaternion.identity);
-                instance.GetComponent<stormMovement>().farm = target.transform;
+            Vector3 position = new Vector3(x, y, z);
+            GameObject instance = GameObject.Instantiate(obj, position, Quaternion.identity);
+            instance.GetComponent<stormMovement>().farm = target.transform;
                 
-                timer = 0f;
-            }
+            timer = 0f;
         }
     }
 }
