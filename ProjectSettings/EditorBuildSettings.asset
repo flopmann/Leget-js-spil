@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Build 1.unity
     guid: 627d83d4725fd8d4e9aa784fa3efdf46
+  - enabled: 1
+    path: Assets/Scenes/AltLoseScene.unity
+    guid: 4c6ca5d3d5ae8174b87e68317bc8e992
+  - enabled: 1
+    path: Assets/Scenes/AltWinScene.unity
+    guid: 562236a4bb1afbd43a9effb111530b92
   m_configObjects: {}

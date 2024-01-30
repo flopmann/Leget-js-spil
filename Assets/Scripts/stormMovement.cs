@@ -44,7 +44,7 @@ public class stormMovement : MonoBehaviour
                 
                 if (health == 0)
                 {
-                    SceneManager.LoadScene("loseScene");
+                    SceneManager.LoadScene("AltLoseScene");
                 }
             }
         }
