@@ -35,7 +35,7 @@ public class stormMovement : MonoBehaviour
             {
                 health = health - 25;
                 GameObject.Destroy(gameObject);
-                Debug.Log(health);
+                
                 
                 if (health == 0)
                 {
