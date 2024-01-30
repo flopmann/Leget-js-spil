@@ -7,7 +7,7 @@ public class FarmRotation : MonoBehaviour
 {
     [SerializeField] private Vector3 _rotation;
 
-    public float carrotsFarmed;
+    public static int carrotsFarmed;
 
     // Update is called once per frame
     void Update()
