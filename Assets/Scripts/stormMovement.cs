@@ -14,8 +14,12 @@ public class stormMovement : MonoBehaviour
 
     public static int health = 100;
 
-    
+    //private new SphereCollider collider;
 
+    private void Start()
+    {
+        //collider = GetComponent<SphereCollider>();
+    }
     void Update()
     {
         CloseIn();
@@ -25,6 +29,7 @@ public class stormMovement : MonoBehaviour
     private void CheckCollisions()
     {
         Collider[] cols = Physics.OverlapBox(gameObject.transform.position,transform.localScale / 2,Quaternion.identity);
+        //Collider[] cols = Physics.OverlapSphere(gameObject.transform.position, collider.radius);
         foreach (Collider col in cols)
         {
             if(col.tag == "Shield") // er det et hegn?
