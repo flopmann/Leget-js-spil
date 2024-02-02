@@ -14,6 +14,8 @@ public class stormMovement : MonoBehaviour
 
     public static int health = 100;
 
+    public static int carrotsFarmed = carrotsFarmed;
+
     //private new SphereCollider collider;
 
     private void Start()
@@ -45,6 +47,8 @@ public class stormMovement : MonoBehaviour
                 if (health == 0)
                 {
                     SceneManager.LoadScene("AltLoseScene");
+                    carrotsFarmed = 0;
+                    health = health + 100;
                 }
             }
         }

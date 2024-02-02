@@ -8,6 +8,7 @@ public class FarmRotation : MonoBehaviour
     [SerializeField] private Vector3 _rotation;
 
     public static int carrotsFarmed;
+    //public static int health;
 
     // Update is called once per frame
     void Update()
@@ -20,9 +21,11 @@ public class FarmRotation : MonoBehaviour
         carrotsFarmed = carrotsFarmed + 1;
         Debug.Log(carrotsFarmed);
 
-        if (carrotsFarmed == 30000)
+        if (carrotsFarmed == 1000)
         {
-            SceneManager.LoadScene("winScene");
+            SceneManager.LoadScene("AltWinScene");
+            carrotsFarmed = 0;
+            //health = 100;
         }
     }
 }
