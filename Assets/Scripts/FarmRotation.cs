@@ -30,6 +30,7 @@ public class FarmRotation : MonoBehaviour
             //health = 100;
 
             audio_src2.Play();
+            Debug.Log("yippie");
         }
     }
 }
