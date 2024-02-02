@@ -7,6 +7,8 @@ public class FarmRotation : MonoBehaviour
 {
     [SerializeField] private Vector3 _rotation;
 
+    public AudioSource audio_src2;
+
     public static int carrotsFarmed;
     //public static int health;
 
@@ -26,6 +28,8 @@ public class FarmRotation : MonoBehaviour
             SceneManager.LoadScene("AltWinScene");
             carrotsFarmed = 0;
             //health = 100;
+
+            audio_src2.Play();
         }
     }
 }
