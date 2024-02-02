@@ -14,7 +14,9 @@ public class stormMovement : MonoBehaviour
 
     public static int health = 100;
 
-    public static int carrotsFarmed = carrotsFarmed;
+    public AudioSource audio_src3;
+
+    //public static int carrotsFarmed = carrotsFarmed;
 
     //private new SphereCollider collider;
 
@@ -42,12 +44,12 @@ public class stormMovement : MonoBehaviour
             {
                 health = health - 25;
                 GameObject.Destroy(gameObject);
-                
+                audio_src3.Play();
                 
                 if (health == 0)
                 {
                     SceneManager.LoadScene("AltLoseScene");
-                    carrotsFarmed = 0;
+                    //carrotsFarmed = 0;
                     health = health + 100;
                 }
             }
