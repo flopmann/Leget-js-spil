@@ -223,7 +223,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.7735849, g: 0.32093486, b: 0, a: 0.12941177}
+      maxColor: {r: 0, g: 0.77254903, b: 0.08359649, a: 0.12941177}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -5005,7 +5005,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   farm: {fileID: 0}
   speed: 5
-  audio_src3: {fileID: 2536180488202681484}
 --- !u!135 &573709733175868375
 SphereCollider:
   m_ObjectHideFlags: 0
