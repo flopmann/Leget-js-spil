@@ -14,7 +14,7 @@ public class stormMovement : MonoBehaviour
 
     public static int health = 100;
 
-    public AudioSource audio_src3;
+    
 
     //public static int carrotsFarmed = carrotsFarmed;
 
@@ -43,8 +43,9 @@ public class stormMovement : MonoBehaviour
             if (col.tag == "Farm")
             {
                 health = health - 25;
+                col.gameObject.GetComponent<farmHitSound>().PlaySound();
                 GameObject.Destroy(gameObject);
-                audio_src3.Play();
+               
                 
                 if (health == 0)
                 {

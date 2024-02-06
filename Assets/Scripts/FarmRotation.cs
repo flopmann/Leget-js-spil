@@ -10,9 +10,13 @@ public class FarmRotation : MonoBehaviour
     public AudioSource audio_src2;
 
     public static int carrotsFarmed;
-    //public static int health;
 
-    // Update is called once per frame
+
+    void Start()
+    {
+        carrotsFarmed = 0;
+    }
+
     void Update()
     {
         transform.Rotate(_rotation * Time.deltaTime);
@@ -21,7 +25,7 @@ public class FarmRotation : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         carrotsFarmed = carrotsFarmed + 1;
-        Debug.Log(carrotsFarmed);
+        //Debug.Log(carrotsFarmed);
 
         if (carrotsFarmed == 1000)
         {
