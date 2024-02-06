@@ -5004,7 +5004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   farm: {fileID: 0}
-  speed: 5
+  speed: 7
 --- !u!135 &573709733175868375
 SphereCollider:
   m_ObjectHideFlags: 0

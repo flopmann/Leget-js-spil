@@ -22,7 +22,7 @@ public class stormMovement : MonoBehaviour
 
     private void Start()
     {
-        //collider = GetComponent<SphereCollider>();
+        health = 100;
     }
     void Update()
     {
