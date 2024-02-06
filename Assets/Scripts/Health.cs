@@ -5,7 +5,12 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {   
-    public Text healthText;   
+    public Text healthText;
+
+    void Start()
+    {
+        stormMovement.health = 100;
+    }
     void Update()
     {
         stormMovement.health.ToString();

@@ -20,10 +20,7 @@ public class stormMovement : MonoBehaviour
 
     //private new SphereCollider collider;
 
-    private void Start()
-    {
-        health = 100;
-    }
+    
     void Update()
     {
         CloseIn();
