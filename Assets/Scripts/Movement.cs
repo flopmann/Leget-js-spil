@@ -45,7 +45,7 @@ public class Movement : MonoBehaviour
 
         controller.Move(moveDirection * Time.deltaTime);
 
-        if ((Input.GetKey("w"))||(Input.GetKey("a"))||(Input.GetKey("s"))||(Input.GetKey("d")))
+        if ((Input.GetKey("w"))||(Input.GetKey("a"))||(Input.GetKey("s"))||(Input.GetKey("d"))||(Input.GetKey("up"))||(Input.GetKey("left"))||(Input.GetKey("down"))||(Input.GetKey("right")))
         {
             animator.SetBool("isWalking", true);
         }
