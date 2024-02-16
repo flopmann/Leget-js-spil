@@ -17,8 +17,7 @@ public class Movement : MonoBehaviour
     public Animator animator;
 
     private Vector3 moveDirection = Vector3.zero;
-    float yMovement = 0f;
-
+  
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -40,10 +39,9 @@ public class Movement : MonoBehaviour
             transform.forward = new Vector3(h, 0f, v);
         }
 
-        yMovement -= gravity * Time.deltaTime;
-        moveDirection.y = yMovement;
+        
 
-        controller.Move(moveDirection * Time.deltaTime);
+        //controller.Move(moveDirection * Time.deltaTime);
 
         if ((Input.GetKey("w"))||(Input.GetKey("a"))||(Input.GetKey("s"))||(Input.GetKey("d"))||(Input.GetKey("up"))||(Input.GetKey("left"))||(Input.GetKey("down"))||(Input.GetKey("right")))
         {
