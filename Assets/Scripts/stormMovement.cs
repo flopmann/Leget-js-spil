@@ -14,13 +14,6 @@ public class stormMovement : MonoBehaviour
 
     public static int health = 100;
 
-    
-
-    //public static int carrotsFarmed = carrotsFarmed;
-
-    //private new SphereCollider collider;
-
-    
     void Update()
     {
         CloseIn();
@@ -30,10 +23,10 @@ public class stormMovement : MonoBehaviour
     private void CheckCollisions()
     {
         Collider[] cols = Physics.OverlapBox(gameObject.transform.position,transform.localScale / 2,Quaternion.identity);
-        //Collider[] cols = Physics.OverlapSphere(gameObject.transform.position, collider.radius);
+
         foreach (Collider col in cols)
         {
-            if(col.tag == "Shield") // er det et hegn?
+            if(col.tag == "Shield") 
             {
                 GameObject.Destroy(gameObject);
             }
@@ -47,7 +40,6 @@ public class stormMovement : MonoBehaviour
                 if (health == 0)
                 {
                     SceneManager.LoadScene("AltLoseScene");
-                    //carrotsFarmed = 0;
                     health = health + 100;
                 }
             }
