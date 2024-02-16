@@ -38,10 +38,7 @@ public class Movement : MonoBehaviour
         {
             transform.forward = new Vector3(h, 0f, v);
         }
-
-        
-
-        //controller.Move(moveDirection * Time.deltaTime);
+        controller.Move(moveDirection * Time.deltaTime);
 
         if ((Input.GetKey("w"))||(Input.GetKey("a"))||(Input.GetKey("s"))||(Input.GetKey("d"))||(Input.GetKey("up"))||(Input.GetKey("left"))||(Input.GetKey("down"))||(Input.GetKey("right")))
         {
